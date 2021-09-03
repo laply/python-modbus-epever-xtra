@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="04e2", RUN+="/sbin/corExar $attr{busnum} $attr{devnum}"
